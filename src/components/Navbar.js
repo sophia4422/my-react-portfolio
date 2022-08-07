@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Navbar, Container } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 
-export const Navbar = () => {
+export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
 
   const onUpdateActiveLink = (value) => {
@@ -11,7 +11,7 @@ export const Navbar = () => {
   return (
     <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">Sophia</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
