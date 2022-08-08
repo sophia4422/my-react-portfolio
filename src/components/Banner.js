@@ -4,13 +4,13 @@ import { Container, Row, Col } from "react-bootstrap";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
+  const [text, setText] = useState("");
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
   const toRotate = [
     "Software Engineer",
     "Full-Stack Web Developer",
     "Graphic Designer",
   ];
-  const [text, setText] = useState("");
-  const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
 
   useEffect(() => {
