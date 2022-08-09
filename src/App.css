@@ -46,7 +46,7 @@ header .nav-btn {
   font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -64,7 +64,7 @@ header .nav-btn {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--babyPink);
-    transition: 1s;
+    /* transition: 1s; */
     transform: translateY(-100vh);
   }
 
