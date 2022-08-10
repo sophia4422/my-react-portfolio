@@ -11,9 +11,9 @@ const Navbar = () => {
     <header>
       <h3>Logo</h3>
       <nav ref={navRef}>
-        <a href="/#">My Projects</a>
-        <a href="/#">About Me</a>
-        <a href="/#">Contact Me</a>
+        <a href="/#">PROJECTS</a>
+        <a href="/#">ABOUT</a>
+        <a href="/#">CONTACT</a>
         <a href="/#">CV</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
