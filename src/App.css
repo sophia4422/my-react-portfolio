@@ -116,40 +116,23 @@ header .nav-btn {
   justify-content: center;
 }
 
-ob @media only screen and (max-width: 768px) {
-  /* NAV BAR CSS */
-  header .nav-btn {
-    visibility: visible;
-    opacity: 1;
+@media only screen and (max-width: 768px) {
+  /* BANNER CSS */
+
+  .hero-image {
+    height: 50vh;
   }
 
-  header nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1.5rem;
-    background-color: var(--babyPink);
-    transform: translateY(-100vh);
+  .hero-container > h1 {
+    font-size: 30px;
+    margin-top: 40px;
   }
 
-  header .responsive_nav {
-    transform: none;
+  .hero-container > p {
+    font-size: 20px;
   }
 
-  nav .nav-close-btn {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
+  .polaroid {
+    width: 30vh;
   }
-
-  nav a {
-    font-size: 1.5rem;
-  }
-  /* END OF NAV BAR CSS */
 }
