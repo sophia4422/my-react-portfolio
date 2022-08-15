@@ -5,7 +5,10 @@ export const Hero = () => {
   return (
     <div className="hero-container">
       <img src={fl} alt="palm trees" className="hero-image" />
-      <h1> I'm Sophia </h1>
+      <h1>
+        {" "}
+        <span className="hello">Hello</span> I'm Sophia{" "}
+      </h1>
       <p> Junior Software Engineer </p>
 
       <div>

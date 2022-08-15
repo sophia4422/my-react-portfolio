@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
 
+@font-face {
+  font-family: "breathing";
+  src: url("./assets/fonts/Breathing\ copy.ttf");
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,15 +30,20 @@
   object-fit: contain;
 }
 
+.hello {
+  font-family: "breathing";
+  text-transform: capitalize;
+}
+
 .hero-container > h1 {
   color: white;
   font-size: 200px;
-  margin-top: 40vh;
+  margin-top: 25vh;
   text-transform: uppercase;
 }
 
 .hero-container > p {
-  margin-top: 8px;
+  margin-top: 5px;
   color: white;
   font-size: 100px;
   text-transform: uppercase;
@@ -44,7 +54,7 @@
   width: 100%;
   position: fixed;
   z-index: -1;
-  height: 80vh;
+  height: 90vh;
   object-position: bottom;
 }
 
