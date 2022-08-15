@@ -1,5 +1,6 @@
 import fl from "../assets/images/fl.jpg";
 import me from "../assets/images/polaroids.png";
+import Typewriter from "typewriter-effect";
 
 export const Hero = () => {
   return (
@@ -9,8 +10,7 @@ export const Hero = () => {
         {" "}
         <span className="hello">Hello</span> I'm Sophia{" "}
       </h1>
-      <p> Junior Software Engineer </p>
-
+      <p>Junior Software Engineer</p>
       <div>
         {" "}
         <img src={me} alt="sophia" className="polaroid" />
