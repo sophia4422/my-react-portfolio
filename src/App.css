@@ -20,8 +20,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0, 0.2);
   object-fit: contain;
+}
+
+.hero-container > h1 {
+  color: white;
+  font-size: 200px;
+  margin-top: 40vh;
+  text-transform: uppercase;
+}
+
+.hero-container > p {
+  margin-top: 8px;
+  color: white;
+  font-size: 100px;
+  text-transform: uppercase;
 }
 
 .hero-image {
@@ -31,6 +46,11 @@
   z-index: -1;
   height: 80vh;
   object-position: bottom;
+}
+
+.polaroid {
+  width: 22vw;
+  height: auto;
 }
 
 /* NAV BAR CSS */
