@@ -52,7 +52,8 @@
 .hero-image {
   object-fit: cover;
   width: 100%;
-  position: fixed;
+  position: absolute;
+  top: 0;
   z-index: -1;
   max-height: 90vh;
   object-position: bottom;
@@ -85,17 +86,19 @@ header {
   /* height: 15vh; */
   padding: 0 2rem;
   background-color: rgba(var(--offWhite), 0.8);
-  color: var(--darkGrey);
+  color: var(--offWhite);
+  /* position: absolute;
+  top: 0px; */
 }
 
 nav a {
   margin: 0 2rem;
-  color: var(--darkGrey);
+  color: var(--offWhite);
   text-decoration: none;
 }
 
 nav a:hover {
-  color: var(--navyBlue);
+  color: var(--babyPink);
 }
 
 header .nav-btn {
@@ -135,6 +138,8 @@ header .nav-btn {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
+    background: transparent;
+    color: var(--offWhite);
   }
 
   header nav {
