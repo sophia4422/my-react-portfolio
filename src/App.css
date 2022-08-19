@@ -78,6 +78,44 @@
   background-color: var(--offWhite);
 }
 
+.big-projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects-title {
+  padding: 2rem;
+  text-transform: uppercase;
+  color: var(--darkGrey);
+  font-size: 22px;
+}
+
+.project-picture {
+  width: 30rem;
+  height: 16rem;
+  border: solid var(--navyBlue);
+  margin-right: 5rem;
+}
+
+.text-container {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+}
+
+.proj-title {
+  font-family: "breathing";
+  color: var(--navyBlue);
+  font-weight: lighter;
+}
+
+.proj-para {
+  margin-top: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 /* NAV BAR CSS */
 
 header {
