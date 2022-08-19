@@ -13,10 +13,10 @@
 }
 
 :root {
-  --offWhite: #f2f4f1;
+  --offWhite: #fefae8;
   --navyBlue: #839ca3;
-  --babyPink: #e8bfc5;
-  --darkGrey: #272528;
+  --babyPink: #fa8086;
+  --darkGrey: #1a191d;
 }
 
 /* HERO */
@@ -34,17 +34,18 @@
 .hello {
   font-family: "breathing";
   text-transform: capitalize;
+  color: var(--offWhite);
 }
 
 .hero-container > h1 {
-  color: white;
+  color: var(--offWhite);
   font-size: 50px;
   margin-top: 15vh;
   text-transform: uppercase;
 }
 
 .hero-container > p {
-  color: white;
+  color: var(--offWhite);
   font-size: 25px;
   text-transform: uppercase;
 }
@@ -85,7 +86,6 @@ header {
   justify-content: space-between;
   /* height: 15vh; */
   padding: 0 2rem;
-  background-color: rgba(var(--offWhite), 0.8);
   color: var(--offWhite);
   /* position: absolute;
   top: 0px; */
@@ -104,7 +104,6 @@ nav a:hover {
 header .nav-btn {
   padding: 5px;
   cursor: pointer;
-  background: transparent;
   border: none;
   outline: none;
   color: var(--darkGrey);
