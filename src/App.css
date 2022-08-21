@@ -177,6 +177,54 @@ header .nav-btn {
   justify-content: center;
 }
 
+/* ABOUT ME PAGE */
+
+.about-container {
+  background-color: var(--babyPink);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.about-image {
+}
+
+.about-me-text {
+  width: 50%;
+}
+
+.about-me-title {
+  color: var(--offWhite);
+  font-family: "breathing";
+  font-weight: lighter;
+}
+
+.about-para {
+  margin-bottom: 20px;
+}
+
+.about-btn {
+  background-color: var(--darkGrey);
+  color: var(--offWhite);
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.about-btn:hover {
+  background-color: var(--offWhite);
+  color: var(--babyPink);
+  font-weight: bold;
+}
+
+.skills-icons {
+  background-color: var(--darkGrey);
+  color: var(--offWhite);
+  text-align: center;
+  padding: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   /* NAV BAR CSS */
 
