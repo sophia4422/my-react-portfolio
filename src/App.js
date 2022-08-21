@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Projects from "./components/Projects";
+import About from "./components/About";
 
 // import { Hero, Projects, Navbar } from "components";
 
@@ -11,6 +12,7 @@ export const App = () => {
       <Navbar />
       <Hero />
       <Projects />
+      <About />
     </React.Fragment>
   );
 };
