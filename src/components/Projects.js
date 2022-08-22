@@ -3,13 +3,24 @@ import { useRef, useEffect, useState } from "react";
 import images from "../images";
 
 export const Projects = () => {
+  const [width, setWidth] = useState(0);
+  const carousel = useRef();
+
+  useEffect(() => {
+    console.log(carousel.current);
+  }, []);
+
   return (
     <div>
-      <motion.div className="carousel">
-        <motion.div className="inner-carousel">
+      <motion.div ref={carousel} className="carousel">
+        <motion.div
+          drag="x"
+          dragConstraints={{ right: 0 }}
+          className="inner-carousel"
+        >
           {images.map((image) => {
             return (
-              <motion.div className="item">
+              <motion.div className="item" key={image}>
                 <img src={image} alt="" />
               </motion.div>
             );

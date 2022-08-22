@@ -128,8 +128,9 @@
 
 .item {
   min-height: 40rem;
-  width: 30rem;
+  min-width: 30rem;
   padding: 40px;
+  pointer-events: none;
 }
 
 .item img {
@@ -140,6 +141,13 @@
 
 .inner-carousel {
   display: flex;
+  background: lightblue;
+}
+
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  background: red;
 }
 
 /* NAV BAR CSS */
