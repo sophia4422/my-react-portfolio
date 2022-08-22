@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
-import images from "./images";
+import images from "../images";
 
 export const Projects = () => {
   return (
