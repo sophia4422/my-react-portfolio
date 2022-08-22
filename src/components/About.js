@@ -39,20 +39,77 @@ export const About = () => {
         </div>
       </div>
       <div className="skills-icons">
-        <h2>Add skills logos here</h2>
-        <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faHtml5}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faCss3Alt}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faJs}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faReact}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faNode}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faFigma}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faNpm}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faSketch}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faSlack}></FontAwesomeIcon>
-        <FontAwesomeIcon icon={faSpotify}></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faJs}
+          alt="JavaScript"
+          title="JavaScript"
+        ></FontAwesomeIcon>
+        <a
+          href="https://github.com/sophia4422"
+          target="_blank"
+          alt="Github"
+          title="Github"
+        >
+          <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+        </a>
+        <FontAwesomeIcon
+          icon={faHtml5}
+          alt="HTML5"
+          title="HTML5"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faCss3Alt}
+          alt="CSS3"
+          title="CSS3"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faReact}
+          alt="React"
+          title="React"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faNode}
+          alt="Node.Js"
+          title="Node.Js"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faCoffee}
+          alt="I make good cups of tea"
+          title="I make good cups of tea"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faFigma}
+          alt="Figma"
+          title="Figma"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon icon={faNpm} alt="NPM" title="NPM"></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faSketch}
+          alt="Sketch"
+          title="Sketch"
+        ></FontAwesomeIcon>
+        <FontAwesomeIcon
+          icon={faSlack}
+          alt="Slack"
+          title="Slack"
+        ></FontAwesomeIcon>
+        <a
+          href="https://open.spotify.com/user/nnujjzugl8ooqquryq0sfnx1t?si=a06cd6a72d8a4e37"
+          target="_blank"
+          alt="Spotify"
+          title="Spotify"
+        >
+          <FontAwesomeIcon icon={faSpotify}></FontAwesomeIcon>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/sophia-wall/"
+          target="_blank"
+          alt="Linkedin"
+          title="Linkedin"
+        >
+          <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
+        </a>
       </div>
     </div>
   );
