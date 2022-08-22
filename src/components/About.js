@@ -1,3 +1,6 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+
 export const About = () => {
   return (
     <div>
@@ -23,6 +26,7 @@ export const About = () => {
       </div>
       <div className="skills-icons">
         <h2>Add skills logos here</h2>
+        <FontAwesomeIcon icon={faCoffee}></FontAwesomeIcon>
       </div>
     </div>
   );
