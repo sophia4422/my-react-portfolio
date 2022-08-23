@@ -9,6 +9,8 @@ export const Contact = () => {
 
   const [submitted, setSubmitted] = useState(false);
 
+  const [valid, setValid] = useState(false);
+
   const handleFirstName = (event) => {
     setValues({ ...values, firstName: event.target.value });
   };
@@ -23,6 +25,10 @@ export const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+    if (values.firstName && values.lastName && values.email) {
+      setValid(true);
+    }
+
     setSubmitted(true);
   };
 
@@ -32,7 +38,7 @@ export const Contact = () => {
 
       <div className="form-container">
         <form className="register-form" onSubmit={handleSubmit}>
-          {submitted ? (
+          {submitted && valid ? (
             <div className="success-message">Thank you for your message!</div>
           ) : null}
           <input
