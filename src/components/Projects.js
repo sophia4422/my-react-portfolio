@@ -7,15 +7,19 @@ export const Projects = () => {
   const carousel = useRef();
 
   useEffect(() => {
-    console.log(carousel.current);
+    setWidth(carousel.current.scrollWidth - carousel.current.offsetWidth);
   }, []);
 
   return (
     <div>
-      <motion.div ref={carousel} className="carousel">
+      <motion.div
+        ref={carousel}
+        className="carousel"
+        whileTap={{ cursor: "grabbing" }}
+      >
         <motion.div
           drag="x"
-          dragConstraints={{ right: 0 }}
+          dragConstraints={{ right: 0, left: -width }}
           className="inner-carousel"
         >
           {images.map((image) => {
