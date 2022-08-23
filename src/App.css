@@ -82,8 +82,6 @@
   justify-content: center;
   background-color: var(--offWhite);
   border: solid green;
-  margin-top: 8vh;
-  margin-bottom: 8vh;
 }
 
 .big-projects {
@@ -127,7 +125,7 @@
 /* CAROUSEL */
 
 .item {
-  min-height: 40rem;
+  min-height: 30rem;
   min-width: 30rem;
   padding: 40px;
   pointer-events: none;
@@ -136,18 +134,16 @@
 .item img {
   width: 100%;
   height: 100%;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .inner-carousel {
   display: flex;
-  background: lightblue;
 }
 
 .carousel {
   cursor: grab;
   overflow: hidden;
-  background: red;
 }
 
 /* NAV BAR CSS */

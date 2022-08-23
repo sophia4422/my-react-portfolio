@@ -11,27 +11,30 @@ export const Projects = () => {
   }, []);
 
   return (
-    <div>
-      <motion.div
-        ref={carousel}
-        className="carousel"
-        whileTap={{ cursor: "grabbing" }}
-      >
+    <section className="projects-container">
+      <h1 className="projects-title">My Web-Development Projects</h1>
+      <div>
         <motion.div
-          drag="x"
-          dragConstraints={{ right: 0, left: -width }}
-          className="inner-carousel"
+          ref={carousel}
+          className="carousel"
+          whileTap={{ cursor: "grabbing" }}
         >
-          {images.map((image) => {
-            return (
-              <motion.div className="item" key={image}>
-                <img src={image} alt="" />
-              </motion.div>
-            );
-          })}
+          <motion.div
+            drag="x"
+            dragConstraints={{ right: 0, left: -width }}
+            className="inner-carousel"
+          >
+            {images.map((image) => {
+              return (
+                <motion.div className="item" key={image}>
+                  <img src={image} alt="" />
+                </motion.div>
+              );
+            })}
+          </motion.div>
         </motion.div>
-      </motion.div>
-    </div>
+      </div>
+    </section>
     // <section className="projects-container">
     //   <h1 className="projects-title">My Web-Development Projects</h1>
 
