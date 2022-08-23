@@ -7,6 +7,8 @@ export const Contact = () => {
     email: "",
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleFirstName = (event) => {
     setValues({ ...values, firstName: event.target.value });
   };
@@ -26,7 +28,9 @@ export const Contact = () => {
       <div className="form-container">
         <form className="register-form">
           {/* Uncomment the next line to show the success message */}
-          {/* <div className="success-message">Success! Thank you for registering</div> */}
+          {submitted ? (
+            <div className="success-message">Thank you for your message!</div>
+          ) : null}
           <input
             onChange={handleFirstName}
             value={values.firstName}

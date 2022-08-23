@@ -273,9 +273,10 @@ header .nav-btn {
 }
 
 .success-message {
-  background-color: #3f89f8;
   padding: 15px;
-  color: white;
+  color: var(--darkGrey);
+  text-align: center;
+  font-weight: bold;
 }
 
 .form-field {
