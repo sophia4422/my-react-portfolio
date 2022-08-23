@@ -1,7 +1,14 @@
+import useState from "react";
+
 export const Contact = () => {
+  const [values, setValues] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+  });
   return (
-    <div>
-      <h1>Contact</h1>
+    <div className="contact-section">
+      <h1 className="projects-title">Contact</h1>
 
       <div class="form-container">
         <form class="register-form">
@@ -35,7 +42,7 @@ export const Contact = () => {
           {/* Uncomment the next line to show the error message */}
           {/* <span id="email-error">Please enter an email address</span> */}
           <button class="form-field" type="submit">
-            Register
+            Send Message
           </button>
         </form>
       </div>

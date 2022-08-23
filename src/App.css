@@ -29,13 +29,13 @@
   justify-content: center;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0, 0.2);
   object-fit: contain;
-  border: solid red;
 }
 
 .hello {
   font-family: "breathing";
   text-transform: capitalize;
   color: var(--offWhite);
+  font-size: 50px;
   text-shadow: 1px 1px 2px rgba(3, 45, 108, 0.412);
 }
 
@@ -62,7 +62,6 @@
   z-index: -1;
   max-height: 98vh;
   object-position: bottom;
-  border: solid purple;
 }
 
 .polaroid {
@@ -81,7 +80,6 @@
   max-height: 90vh;
   justify-content: center;
   background-color: var(--offWhite);
-  border: solid green;
 }
 
 .big-projects {
@@ -95,6 +93,7 @@
   text-transform: uppercase;
   color: var(--darkGrey);
   font-size: 22px;
+  text-align: center;
 }
 
 .project-picture {
@@ -253,9 +252,14 @@ header .nav-btn {
 
 /* CONTACT FORM SECTION */
 
+.contact-section {
+  background-color: var(--navyBlue);
+  height: 65vh;
+}
+
 .form-container {
   width: 360px;
-  background-color: white;
+  background-color: var(--offWhite);
   margin: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   padding: 10px;
@@ -269,7 +273,6 @@ header .nav-btn {
 }
 
 .success-message {
-  font-family: "Roboto", sans-serif;
   background-color: #3f89f8;
   padding: 15px;
   color: white;
@@ -280,11 +283,9 @@ header .nav-btn {
   padding: 15px;
   font-size: 16px;
   border: 0;
-  font-family: "Roboto", sans-serif;
 }
 
 span {
-  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: red;
   margin-bottom: 15px;
@@ -300,9 +301,14 @@ input {
 }
 
 button {
-  background: #4caf50;
-  color: white;
+  background: var(--darkGrey);
+  color: var(--offWhite);
   cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: var(--babyPink);
 }
 
 button:disabled {
