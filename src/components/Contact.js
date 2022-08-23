@@ -21,13 +21,17 @@ export const Contact = () => {
     setValues({ ...values, email: event.target.value });
   };
 
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setSubmitted(true);
+  };
+
   return (
     <div className="contact-section">
       <h1 className="projects-title">Contact</h1>
 
       <div className="form-container">
-        <form className="register-form">
-          {/* Uncomment the next line to show the success message */}
+        <form className="register-form" onSubmit={handleSubmit}>
           {submitted ? (
             <div className="success-message">Thank you for your message!</div>
           ) : null}
@@ -40,8 +44,10 @@ export const Contact = () => {
             placeholder="First Name"
             name="firstName"
           />
-          {/* Uncomment the next line to show the error message */}
-          {/* <span id="first-name-error">Please enter a first name</span> */}
+
+          {submitted && !values.firstName ? (
+            <span id="first-name-error">Please enter a first name</span>
+          ) : null}
           <input
             onChange={handleLastName}
             value={values.lastName}
@@ -51,8 +57,10 @@ export const Contact = () => {
             placeholder="Last Name"
             name="lastName"
           />
-          {/* Uncomment the next line to show the error message */}
-          {/* <span id="last-name-error">Please enter a last name</span> */}
+
+          {submitted && !values.lastName ? (
+            <span id="last-name-error">Please enter a last name</span>
+          ) : null}
           <input
             onChange={handleEmail}
             value={values.email}
@@ -62,8 +70,10 @@ export const Contact = () => {
             placeholder="Email"
             name="email"
           />
-          {/* Uncomment the next line to show the error message */}
-          {/* <span id="email-error">Please enter an email address</span> */}
+
+          {submitted && !values.email ? (
+            <span id="email-error">Please enter an email address</span>
+          ) : null}
           <button className="form-field" type="submit">
             Send Message
           </button>
