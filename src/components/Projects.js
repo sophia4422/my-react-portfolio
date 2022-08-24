@@ -1,6 +1,5 @@
-import { motion } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
-import images from "../images";
+import vh from "../assets/images/vh.png";
+import wo from "../assets/images/wo.png";
 
 export const Projects = () => {
   return (
@@ -8,13 +7,19 @@ export const Projects = () => {
       <h1 className="projects-title">My Web-Development Projects</h1>
 
       <div className="big-projects">
-        <div className="project-picture">
+        <div className="project">
+          <div>
+            <img src={wo} alt="what's on" className="project-picture" />
+          </div>
           <div className="text-container">
             <h2 className="proj-title">What's On</h2>
             <p className="proj-para">Find Events Near You!</p>
           </div>
         </div>
-        <div className="project-picture">
+        <div className="project">
+          <div>
+            <img src={vh} alt="virtual holiday" className="project-picture" />
+          </div>
           <div className="text-container">
             <h2 className="proj-title">Virtual Holiday</h2>
             <p className="proj-para">Travel Abroad From Home!</p>

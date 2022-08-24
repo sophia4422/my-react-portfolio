@@ -98,8 +98,8 @@
 }
 
 .project-picture {
-  width: 30rem;
-  height: 16rem;
+  width: 40rem;
+  height: 20rem;
   border: solid var(--navyBlue);
   margin-right: 5rem;
 }
