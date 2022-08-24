@@ -5,6 +5,7 @@ export const Contact = () => {
     firstName: "",
     lastName: "",
     email: "",
+    message: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -23,9 +24,13 @@ export const Contact = () => {
     setValues({ ...values, email: event.target.value });
   };
 
+  const handleMessage = (event) => {
+    setValues({ ...values, message: event.target.value });
+  };
+
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (values.firstName && values.lastName && values.email) {
+    if (values.firstName && values.lastName && values.message && values.email) {
       setValid(true);
     }
 
@@ -50,10 +55,10 @@ export const Contact = () => {
             placeholder="First Name"
             name="firstName"
           />
-
           {submitted && !values.firstName ? (
             <span id="first-name-error">Please enter a first name</span>
           ) : null}
+
           <input
             onChange={handleLastName}
             value={values.lastName}
@@ -63,10 +68,10 @@ export const Contact = () => {
             placeholder="Last Name"
             name="lastName"
           />
-
           {submitted && !values.lastName ? (
             <span id="last-name-error">Please enter a last name</span>
           ) : null}
+
           <input
             onChange={handleEmail}
             value={values.email}
@@ -79,6 +84,19 @@ export const Contact = () => {
 
           {submitted && !values.email ? (
             <span id="email-error">Please enter an email address</span>
+          ) : null}
+
+          <input
+            onChange={handleMessage}
+            value={values.message}
+            id="message"
+            className="form-field"
+            type="text"
+            placeholder="Your Message"
+            name="message"
+          />
+          {submitted && !values.message ? (
+            <span id="message-error">Please enter a message</span>
           ) : null}
           <button className="form-field" type="submit">
             Send Message
