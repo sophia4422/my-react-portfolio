@@ -31,7 +31,7 @@ export const Projects = () => {
         </div>
       </div>
 
-      <div className="big-projects">
+      <div className="small-projects">
         <div className="project">
           <div>
             <img
