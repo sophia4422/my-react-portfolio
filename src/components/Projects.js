@@ -16,7 +16,9 @@ export const Projects = () => {
       <div className="big-projects">
         <div className="project">
           <div>
-            <img src={wo} alt="what's on" className="project-picture" />
+            <a href="https://what-is-on.herokuapp.com/" target="_blank">
+              <img src={wo} alt="What's on" className="project-picture" />
+            </a>
           </div>
           <div className="text-container">
             <h2 className="proj-title">What's On</h2>
@@ -34,7 +36,9 @@ export const Projects = () => {
         </div>
         <div className="project">
           <div>
-            <img src={vh} alt="virtual holiday" className="project-picture" />
+            <a href="https://c-sim.github.io/virtual-holiday/" target="_blank">
+              <img src={vh} alt="virtual holiday" className="project-picture" />
+            </a>
           </div>
           <div className="text-container">
             <h2 className="proj-title">Virtual Holiday</h2>
@@ -55,34 +59,55 @@ export const Projects = () => {
       <div className="small-projects">
         <div className="project">
           <div>
-            <img
-              src={rpg}
-              alt="Random Password Generator"
-              className="project-picture-two"
-            />
+            <a
+              href="https://sophia4422.github.io/random-password-generator/"
+              target="_blank"
+            >
+              <img
+                src={rpg}
+                alt="Random Password Generator"
+                className="project-picture-two"
+              />
+            </a>
           </div>
         </div>
         <div className="project">
           <div>
-            <img
-              src={wj}
-              alt="Weather Journal"
-              className="project-picture-two"
-            />
+            <a
+              href="https://sophia4422.github.io/weather-journal-new/"
+              target="_blank"
+            >
+              <img
+                src={wj}
+                alt="Weather Journal"
+                className="project-picture-two"
+              />
+            </a>
           </div>
         </div>
         <div className="project">
           <div>
-            <img
-              src={mp}
-              alt="My HTML/CSS Portfolio"
-              className="project-picture-two"
-            />
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              {" "}
+              <img
+                src={mp}
+                alt="My HTML/CSS Portfolio"
+                className="project-picture-two"
+              />
+            </a>
           </div>
         </div>
         <div className="project">
           <div>
-            <img src={nt} alt="Note Taker" className="project-picture-two" />
+            <a
+              href="https://limitless-mountain-74074.herokuapp.com/"
+              target="_blank"
+            >
+              <img src={nt} alt="Note Taker" className="project-picture-two" />
+            </a>
           </div>
         </div>
       </div>

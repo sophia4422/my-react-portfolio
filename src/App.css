@@ -115,11 +115,19 @@
   margin: 20px;
 }
 
+.project-picture:hover {
+  border: solid var(--babyPink);
+}
+
 .project-picture-two {
   width: 20rem;
   height: 15rem;
   border: solid var(--navyBlue);
   margin: 10px;
+}
+
+.project-picture-two:hover {
+  border: solid var(--babyPink);
 }
 
 .text-container {
@@ -150,6 +158,10 @@
   margin-left: 15px;
   color: var(--navyBlue);
   font-size: 25px;
+}
+
+.github-logo:hover {
+  color: var(--babyPink);
 }
 
 /* CAROUSEL */
