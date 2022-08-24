@@ -4,6 +4,9 @@ import rpg from "../assets/images/rpg.png";
 import wj from "../assets/images/wj.png";
 import mp from "../assets/images/mp.png";
 import nt from "../assets/images/nt.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCoffee } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Projects = () => {
   return (
@@ -18,6 +21,15 @@ export const Projects = () => {
           <div className="text-container">
             <h2 className="proj-title">What's On</h2>
             <p className="proj-para">Find Events Near You!</p>
+            <a
+              href="https://github.com/talexandru1987/event-finder"
+              target="_blank"
+              alt="Github"
+              title="Github"
+              className="github-logo"
+            >
+              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            </a>
           </div>
         </div>
         <div className="project">
@@ -27,6 +39,15 @@ export const Projects = () => {
           <div className="text-container">
             <h2 className="proj-title">Virtual Holiday</h2>
             <p className="proj-para">Travel Abroad From Home!</p>
+            <a
+              href="https://github.com/C-Sim/virtual-holidayhttps://github.com/C-Sim/virtual-holiday"
+              target="_blank"
+              alt="Github"
+              title="Github"
+              className="github-logo"
+            >
+              <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+            </a>
           </div>
         </div>
       </div>

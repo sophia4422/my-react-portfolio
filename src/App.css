@@ -139,6 +139,17 @@
   margin-top: 12px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-left: 15px;
+  color: var(--darkGrey);
+}
+
+.github-logo {
+  margin-top: 6px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 15px;
+  color: var(--navyBlue);
+  font-size: 25px;
 }
 
 /* CAROUSEL */
