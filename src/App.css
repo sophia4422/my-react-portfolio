@@ -105,7 +105,7 @@
   color: var(--darkGrey);
   font-size: 22px;
   text-align: center;
-  margin-top: 5rem;
+  /* margin-top: 5rem; */
 }
 
 .project-picture {

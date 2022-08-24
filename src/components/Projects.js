@@ -40,7 +40,7 @@ export const Projects = () => {
             <h2 className="proj-title">Virtual Holiday</h2>
             <p className="proj-para">Travel Abroad From Home!</p>
             <a
-              href="https://github.com/C-Sim/virtual-holidayhttps://github.com/C-Sim/virtual-holiday"
+              href="https://github.com/C-Sim/virtual-holiday"
               target="_blank"
               alt="Github"
               title="Github"
