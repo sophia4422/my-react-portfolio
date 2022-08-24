@@ -1,5 +1,7 @@
 import vh from "../assets/images/vh.png";
 import wo from "../assets/images/wo.png";
+import rpg from "../assets/images/rpg.png";
+import wj from "../assets/images/wj.png";
 
 export const Projects = () => {
   return (
@@ -23,6 +25,45 @@ export const Projects = () => {
           <div className="text-container">
             <h2 className="proj-title">Virtual Holiday</h2>
             <p className="proj-para">Travel Abroad From Home!</p>
+          </div>
+        </div>
+      </div>
+
+      <div className="big-projects">
+        <div className="project">
+          <div>
+            <img
+              src={rpg}
+              alt="Random Password Generator"
+              className="project-picture-two"
+            />
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <img
+              src={wj}
+              alt="Weather Journal"
+              className="project-picture-two"
+            />
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <img
+              src={vh}
+              alt="virtual holiday"
+              className="project-picture-two"
+            />
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <img
+              src={vh}
+              alt="virtual holiday"
+              className="project-picture-two"
+            />
           </div>
         </div>
       </div>

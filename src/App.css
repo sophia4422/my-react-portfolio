@@ -101,7 +101,14 @@
   width: 40rem;
   height: 20rem;
   border: solid var(--navyBlue);
-  margin-right: 5rem;
+  margin-right: 6rem;
+}
+
+.project-picture-two {
+  width: 20rem;
+  height: 15rem;
+  border: solid var(--navyBlue);
+  margin-right: 2rem;
 }
 
 .text-container {
@@ -114,6 +121,7 @@
   font-family: "breathing";
   color: var(--navyBlue);
   font-weight: lighter;
+  text-align: center;
 }
 
 .proj-para {
