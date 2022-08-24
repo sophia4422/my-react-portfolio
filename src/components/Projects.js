@@ -2,6 +2,8 @@ import vh from "../assets/images/vh.png";
 import wo from "../assets/images/wo.png";
 import rpg from "../assets/images/rpg.png";
 import wj from "../assets/images/wj.png";
+import mp from "../assets/images/mp.png";
+import nt from "../assets/images/nt.png";
 
 export const Projects = () => {
   return (
@@ -51,19 +53,15 @@ export const Projects = () => {
         <div className="project">
           <div>
             <img
-              src={vh}
-              alt="virtual holiday"
+              src={mp}
+              alt="My HTML/CSS Portfolio"
               className="project-picture-two"
             />
           </div>
         </div>
         <div className="project">
           <div>
-            <img
-              src={vh}
-              alt="virtual holiday"
-              className="project-picture-two"
-            />
+            <img src={nt} alt="Note Taker" className="project-picture-two" />
           </div>
         </div>
       </div>
