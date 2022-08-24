@@ -5,13 +5,13 @@ import wj from "../assets/images/wj.png";
 import mp from "../assets/images/mp.png";
 import nt from "../assets/images/nt.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const Projects = () => {
   return (
     <section className="projects-container">
       <h1 className="projects-title">My Web-Development Projects</h1>
+      <p>Click the icons to view the deployed pages</p>
 
       <div className="big-projects">
         <div className="project">

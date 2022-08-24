@@ -1,4 +1,5 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
+import emailjs from "@emailjs/browser";
 
 export const Contact = () => {
   const [values, setValues] = useState({
@@ -11,6 +12,10 @@ export const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
 
   const [valid, setValid] = useState(false);
+
+  const [showMessage, setShowMessage] = useState(false);
+
+  const form = useRef();
 
   const handleFirstName = (event) => {
     setValues({ ...values, firstName: event.target.value });
@@ -28,12 +33,39 @@ export const Contact = () => {
     setValues({ ...values, message: event.target.value });
   };
 
+  useEffect(() => {
+    if (showMessage) {
+      setValues({
+        firstName: "",
+        lastName: "",
+        email: "",
+        message: "",
+      });
+    }
+  }, [showMessage]);
+
   const handleSubmit = (event) => {
     event.preventDefault();
+
     if (values.firstName && values.lastName && values.message && values.email) {
       setValid(true);
+      emailjs
+        .sendForm(
+          "service_pclhf2q",
+          "template_31e3u1p",
+          form.current,
+          "fdtdYXCzr9PuG-P_x"
+        )
+        .then(
+          (result) => {
+            setShowMessage(true);
+          },
+          (error) => {
+            console.log(error.text);
+            setShowMessage(true);
+          }
+        );
     }
-
     setSubmitted(true);
   };
 
@@ -42,8 +74,8 @@ export const Contact = () => {
       <h1 className="projects-title">Contact</h1>
 
       <div className="form-container">
-        <form className="register-form" onSubmit={handleSubmit}>
-          {submitted && valid ? (
+        <form ref={form} className="register-form" onSubmit={handleSubmit}>
+          {showMessage && valid ? (
             <div className="success-message">Thank you for your message!</div>
           ) : null}
           <input
@@ -55,7 +87,7 @@ export const Contact = () => {
             placeholder="First Name"
             name="firstName"
           />
-          {submitted && !values.firstName ? (
+          {submitted && !values.firstName && !showMessage ? (
             <span id="first-name-error">Please enter a first name</span>
           ) : null}
 
@@ -68,7 +100,7 @@ export const Contact = () => {
             placeholder="Last Name"
             name="lastName"
           />
-          {submitted && !values.lastName ? (
+          {submitted && !values.lastName && !showMessage ? (
             <span id="last-name-error">Please enter a last name</span>
           ) : null}
 
@@ -77,12 +109,12 @@ export const Contact = () => {
             value={values.email}
             id="email"
             className="form-field"
-            type="text"
+            type="email"
             placeholder="Email"
             name="email"
           />
 
-          {submitted && !values.email ? (
+          {submitted && !values.email && !showMessage ? (
             <span id="email-error">Please enter an email address</span>
           ) : null}
 
@@ -95,7 +127,7 @@ export const Contact = () => {
             placeholder="Your Message"
             name="message"
           />
-          {submitted && !values.message ? (
+          {submitted && !values.message && !showMessage ? (
             <span id="message-error">Please enter a message</span>
           ) : null}
           <button className="form-field" type="submit">
