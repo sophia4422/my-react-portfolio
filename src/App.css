@@ -366,6 +366,12 @@ button:disabled {
   color: var(--offWhite);
 }
 
+.footer-container {
+  display: flex;
+  min-height: 10vh;
+  background-color: var(--darkGrey);
+}
+
 @media only screen and (max-width: 768px) {
   /* NAV BAR CSS */
 
