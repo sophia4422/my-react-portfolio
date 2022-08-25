@@ -34,22 +34,16 @@ export const About = () => {
         <div className="about-me-text">
           <h1 className="about-me-title">About me!</h1>
           <p className="about-para">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            I am a full-stack software engineer with knowledge of a variety of
+            technologies: MERN Stack, GraphQL and MySQL, through to HTML, CSS
+            and JavaScript. I am passionate about front-end development and
+            following UX/UI best practices. I like to combine the art of design
+            with the art of programming.
           </p>
           <p className="about-para">
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
+            In my personal life, I love travelling to new places, listening to
+            R&B, cuddling my pet cat, Cookie, painting and cooking (I make the
+            best lasagne)!
           </p>
           <button type="button" className="about-btn">
             Contact me

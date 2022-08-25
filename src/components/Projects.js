@@ -111,6 +111,62 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+
+      <div className="small-projects">
+        <div className="project">
+          <div>
+            <a
+              href="https://sophia4422.github.io/random-password-generator/"
+              target="_blank"
+            >
+              <img
+                src={rpg}
+                alt="Random Password Generator"
+                className="project-picture-two"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <a
+              href="https://sophia4422.github.io/weather-journal-new/"
+              target="_blank"
+            >
+              <img
+                src={wj}
+                alt="Weather Journal"
+                className="project-picture-two"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              {" "}
+              <img
+                src={mp}
+                alt="My HTML/CSS Portfolio"
+                className="project-picture-two"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <div>
+            <a
+              href="https://limitless-mountain-74074.herokuapp.com/"
+              target="_blank"
+            >
+              <img src={nt} alt="Note Taker" className="project-picture-two" />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
     // <section className="projects-container">
     //   <h1 className="projects-title">My Web-Development Projects</h1>
