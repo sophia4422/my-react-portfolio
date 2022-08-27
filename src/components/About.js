@@ -3,7 +3,6 @@ import { Link } from "react-scroll";
 import { useRef, useEffect, useState } from "react";
 import images from "../images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import {
   faGithub,
   faHtml5,
@@ -127,11 +126,6 @@ export const About = () => {
           title="Node.Js"
         ></FontAwesomeIcon>
         <FontAwesomeIcon
-          icon={faCoffee}
-          alt="I make good cups of tea"
-          title="I make good cups of tea"
-        ></FontAwesomeIcon>
-        <FontAwesomeIcon
           icon={faFigma}
           alt="Figma"
           title="Figma"
@@ -147,23 +141,6 @@ export const About = () => {
           alt="Slack"
           title="Slack"
         ></FontAwesomeIcon>
-        <a
-          href="https://open.spotify.com/user/nnujjzugl8ooqquryq0sfnx1t?si=a06cd6a72d8a4e37"
-          target="_blank"
-          alt="Spotify"
-          title="Spotify"
-        >
-          <FontAwesomeIcon icon={faSpotify}></FontAwesomeIcon>
-        </a>
-
-        <a
-          href="https://www.linkedin.com/in/sophia-wall/"
-          target="_blank"
-          alt="Linkedin"
-          title="Linkedin"
-        >
-          <FontAwesomeIcon icon={faLinkedin}></FontAwesomeIcon>
-        </a>
       </div>
     </div>
   );
