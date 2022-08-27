@@ -16,7 +16,9 @@ export const Projects = () => {
     <section className="projects-container" id="projects">
       <Container fluid>
         <h1 className="projects-title">My Web-Development Projects</h1>
-        <p>Click the icons to view the deployed pages</p>
+        <h3 className="small-title">
+          Click the icons to view the deployed pages
+        </h3>
 
         <div className="big-projects">
           <Card className="project">

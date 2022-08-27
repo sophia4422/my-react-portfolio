@@ -12,9 +12,6 @@ const Navbar = () => {
     <header>
       <h3>Logo</h3>
       <nav ref={navRef}>
-        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
-          HOME
-        </Link>
         <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
           PROJECTS
         </Link>

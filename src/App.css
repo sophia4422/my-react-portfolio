@@ -103,11 +103,27 @@
 
 .projects-title {
   padding: 2rem;
+  padding-bottom: 0;
   text-transform: uppercase;
   color: var(--darkGrey);
   font-size: 22px;
   text-align: center;
   /* margin-top: 5rem; */
+}
+
+.cursive-title {
+  text-align: center;
+  font-family: "breathing";
+  margin-bottom: 10px;
+}
+
+.small-title {
+  text-align: center;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1.8vh;
+  margin-top: 1vh;
 }
 
 .project-picture {
@@ -275,18 +291,19 @@ header .nav-btn {
 }
 
 .about-btn {
-  background-color: var(--darkGrey);
-  color: var(--offWhite);
   padding: 5px 10px;
   text-transform: uppercase;
   border: none;
   font-size: 14px;
-}
-
-.about-btn:hover {
+  margin-right: 20px;
   background-color: var(--offWhite);
   color: var(--babyPink);
   font-weight: bold;
+}
+
+.about-btn:hover {
+  background-color: var(--darkGrey);
+  color: var(--offWhite);
 }
 
 .skills-icons {

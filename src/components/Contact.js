@@ -72,7 +72,7 @@ export const Contact = () => {
   return (
     <div className="contact-section" id="contact">
       <h1 className="projects-title">Contact</h1>
-      <h2>Say hello!</h2>
+      <h2 className="cursive-title">Say hello!</h2>
 
       <div className="form-container">
         <form ref={form} className="register-form" onSubmit={handleSubmit}>
