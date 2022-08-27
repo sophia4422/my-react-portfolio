@@ -70,7 +70,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <h1 className="projects-title">Contact</h1>
       <h2>Say hello!</h2>
 

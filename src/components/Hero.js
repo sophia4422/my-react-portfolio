@@ -15,7 +15,7 @@ export const Hero = () => {
   // }, []);
 
   return (
-    <div className="hero-container">
+    <div className="hero-container" id="home">
       <img src={fl} alt="palm trees" className="hero-image" />
       <h1>
         {" "}

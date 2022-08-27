@@ -7,16 +7,19 @@ import nt from "../assets/images/nt.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Container from "react-bootstrap/Container";
+import Card from "react-bootstrap/Card";
+
+import Image from "react-bootstrap/Image";
 
 export const Projects = () => {
   return (
-    <section className="projects-container">
+    <section className="projects-container" id="projects">
       <Container fluid>
         <h1 className="projects-title">My Web-Development Projects</h1>
         <p>Click the icons to view the deployed pages</p>
 
         <div className="big-projects">
-          <div className="project">
+          <Card className="project">
             <div>
               <a href="https://what-is-on.herokuapp.com/" target="_blank">
                 <img src={wo} alt="What's on" className="project-picture" />
@@ -35,8 +38,8 @@ export const Projects = () => {
                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://c-sim.github.io/virtual-holiday/"
@@ -62,11 +65,11 @@ export const Projects = () => {
                 <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
               </a>
             </div>
-          </div>
+          </Card>
         </div>
 
         <div className="small-projects">
-          <div className="project">
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/random-password-generator/"
@@ -79,8 +82,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/weather-journal-new/"
@@ -93,8 +96,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/my-portfolio/"
@@ -108,8 +111,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://limitless-mountain-74074.herokuapp.com/"
@@ -122,11 +125,11 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
+          </Card>
         </div>
 
         <div className="small-projects">
-          <div className="project">
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/random-password-generator/"
@@ -139,8 +142,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/weather-journal-new/"
@@ -153,8 +156,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://sophia4422.github.io/my-portfolio/"
@@ -168,8 +171,8 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
-          <div className="project">
+          </Card>
+          <Card className="project">
             <div>
               <a
                 href="https://limitless-mountain-74074.herokuapp.com/"
@@ -182,7 +185,7 @@ export const Projects = () => {
                 />
               </a>
             </div>
-          </div>
+          </Card>
         </div>
       </Container>
     </section>

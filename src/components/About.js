@@ -27,7 +27,7 @@ export const About = () => {
   }, []);
   return (
     <div>
-      <div className="about-container">
+      <div className="about-container" id="about">
         <div className="about-image">
           <h2>image here</h2>
         </div>

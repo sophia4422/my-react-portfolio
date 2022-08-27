@@ -11,10 +11,10 @@ const Navbar = () => {
     <header>
       <h3>Logo</h3>
       <nav ref={navRef}>
-        <a href="/#">HOME</a>
-        <a href="/#">PROJECTS</a>
-        <a href="/#">ABOUT</a>
-        <a href="/#">CONTACT</a>
+        <a href="/#home">HOME</a>
+        <a href="/#projects">PROJECTS</a>
+        <a href="/#about">ABOUT</a>
+        <a href="/#contact">CONTACT</a>
         <a href="/#">CV</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
