@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { Link } from "react-scroll";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faCircleChevronUp } from "@fortawesome/free-solid-svg-icons";
 
 export const Footer = () => {
   return (
@@ -24,6 +25,9 @@ export const Footer = () => {
       >
         <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
       </a>
+      <Link to="home" spy={true} smooth={true} offset={-80} duration={500}>
+        <FontAwesomeIcon icon={faCircleChevronUp}></FontAwesomeIcon>
+      </Link>
     </div>
   );
 };
