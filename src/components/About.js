@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Link } from "react-scroll";
 import { useRef, useEffect, useState } from "react";
 import images from "../images";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -45,9 +46,17 @@ export const About = () => {
             R&B, cuddling my pet cat, Cookie, painting and cooking (I make the
             best lasagne)!
           </p>
-          <button type="button" className="about-btn">
-            Contact me
-          </button>
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <button type="button" className="about-btn">
+              Contact me
+            </button>
+          </Link>
         </div>
       </div>
 

@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -11,10 +12,18 @@ const Navbar = () => {
     <header>
       <h3>Logo</h3>
       <nav ref={navRef}>
-        <a href="/#home">HOME</a>
-        <a href="/#projects">PROJECTS</a>
-        <a href="/#about">ABOUT</a>
-        <a href="/#contact">CONTACT</a>
+        <Link to="home" spy={true} smooth={true} offset={50} duration={500}>
+          HOME
+        </Link>
+        <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+          PROJECTS
+        </Link>
+        <Link to="about" spy={true} smooth={true} offset={-80} duration={500}>
+          ABOUT
+        </Link>
+        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+          CONTACT
+        </Link>
         <a href="/#">CV</a>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
