@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { useRef, useEffect, useState } from "react";
 import images from "../images";
+import me from "../assets/images/polaroids.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
@@ -29,7 +30,12 @@ export const About = () => {
     <div>
       <div className="about-container" id="about">
         <div className="about-image">
-          <h2>image here</h2>
+          <img
+            src={me}
+            alt="sophia"
+            className="polaroid"
+            // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
+          />
         </div>
         <div className="about-me-text">
           <h1 className="about-me-title">About me!</h1>

@@ -17,7 +17,7 @@ export const Projects = () => {
       <Container fluid>
         <h1 className="projects-title">My Web-Development Projects</h1>
         <h3 className="small-title">
-          Click the icons to view the deployed pages
+          Click the pictures to view the deployed pages
         </h3>
 
         <div className="big-projects">
