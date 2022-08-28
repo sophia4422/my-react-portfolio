@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
+import logo from "../assets/images/sophia-logo.png";
 
 const Navbar = () => {
   const navRef = useRef();
@@ -10,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <header>
-      <h3>Logo</h3>
+      <img src={logo} alt="Sophia Wave Logo" className="logo" />
       <nav ref={navRef}>
         <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
           PROJECTS
