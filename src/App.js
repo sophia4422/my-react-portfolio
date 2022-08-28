@@ -10,14 +10,14 @@ import Footer from "./components/Footer";
 
 export const App = () => {
   return (
-    <React.Fragment>
+    <>
       <Navbar />
       <Hero />
       <Projects />
       <About />
       <Contact />
       <Footer />
-    </React.Fragment>
+    </>
   );
 };
 
