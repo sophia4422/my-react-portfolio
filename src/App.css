@@ -78,6 +78,7 @@
 
 .down-btn:hover {
   cursor: pointer;
+  color: var(--babyPink);
 }
 
 /* PROJECTS SECTION */
@@ -396,10 +397,58 @@ button:disabled {
   color: var(--offWhite);
 }
 
+/* FOOTER */
+
 .footer-container {
   display: flex;
   min-height: 10vh;
   background-color: var(--darkGrey);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-title {
+  color: var(--offWhite);
+  font-family: "breathing";
+  font-weight: lighter;
+  font-size: 2.8vh;
+  text-align: center;
+}
+
+.footer-para {
+  color: var(--offWhite);
+  text-align: center;
+}
+
+.skills-icons-two {
+  color: var(--offWhite);
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  font-size: 3vh;
+  justify-content: space-between;
+}
+
+.skills-icons-two a {
+  color: var(--offWhite);
+}
+
+.up-btn {
+  color: var(--babyPink);
+  font-size: 3vh;
+  padding-top: 2vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.up-btn:hover {
+  cursor: pointer;
+  color: var(--offWhite);
 }
 
 @media only screen and (max-width: 768px) {
