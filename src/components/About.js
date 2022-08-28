@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { useRef, useEffect, useState } from "react";
 import images from "../images";
+
 import me from "../assets/images/polaroids.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -90,6 +91,7 @@ export const About = () => {
           </motion.div>
         </motion.div>
       </div>
+
       <div className="skills-icons">
         <FontAwesomeIcon
           icon={faJs}

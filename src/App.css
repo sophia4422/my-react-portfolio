@@ -126,6 +126,7 @@
   text-align: center;
   font-family: "breathing";
   margin-bottom: 10px;
+  color: var(--darkGrey);
 }
 
 .small-title {
