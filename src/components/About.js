@@ -11,12 +11,10 @@ import {
   faJs,
   faReact,
   faNode,
-  faLinkedin,
   faFigma,
   faNpm,
   faSketch,
   faSlack,
-  faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 
 export const About = () => {
@@ -30,12 +28,7 @@ export const About = () => {
     <div>
       <div className="about-container" id="about">
         <div className="about-image">
-          <img
-            src={me}
-            alt="sophia"
-            className="polaroid"
-            // style={{ transform: `translateY(${offsetY * 0.5}px)` }}
-          />
+          <img src={me} alt="sophia" className="polaroid" />
         </div>
         <div className="about-me-text">
           <h1 className="about-me-title">About me!</h1>
