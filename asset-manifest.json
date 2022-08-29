@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.b88698ca.css",
-    "main.js": "/static/js/main.0b1633e5.js",
-    "static/media/polaroids.png": "/static/media/polaroids.3f610712178702aeb682.png",
-    "static/media/fl.jpg": "/static/media/fl.3e3a9bc2cc75bf34d6b7.jpg",
-    "static/media/wo.png": "/static/media/wo.ddb5040a687789a289ce.png",
-    "static/media/springs.png": "/static/media/springs.2c20a56db6b5c8dab575.png",
-    "static/media/vh.png": "/static/media/vh.3579bd4f7459c1537cc0.png",
-    "static/media/Breathing copy.ttf": "/static/media/Breathing copy.ef600446289c063cf06f.ttf",
-    "static/media/maa.png": "/static/media/maa.a12e91ef7a5c979a7715.png",
-    "static/media/sd.png": "/static/media/sd.bf40b0afab5780cff53d.png",
-    "static/media/ice.png": "/static/media/ice.f2a898f5ee47d6985a8f.png",
-    "static/media/cw.png": "/static/media/cw.f80132aa31153e8b1cd7.png",
-    "static/media/cat.png": "/static/media/cat.17e6ad2a48ea27aa91b9.png",
-    "static/media/mp.png": "/static/media/mp.22ad47d3a89463c0e09e.png",
-    "static/media/wj.png": "/static/media/wj.efc07ac9f5b13df5ba4f.png",
-    "static/media/nt.png": "/static/media/nt.3c12ac23c1c8f18ac5a7.png",
-    "static/media/rpg.png": "/static/media/rpg.afed37ee0a61654bcb54.png",
-    "static/media/sophia-logo.png": "/static/media/sophia-logo.c83694340609fb5cee96.png",
-    "index.html": "/index.html",
-    "main.b88698ca.css.map": "/static/css/main.b88698ca.css.map",
-    "main.0b1633e5.js.map": "/static/js/main.0b1633e5.js.map"
+    "main.css": "/my-react-portfolio/static/css/main.c7e3ec49.css",
+    "main.js": "/my-react-portfolio/static/js/main.ef564e74.js",
+    "static/media/polaroids.png": "/my-react-portfolio/static/media/polaroids.3f610712178702aeb682.png",
+    "static/media/fl.jpg": "/my-react-portfolio/static/media/fl.3e3a9bc2cc75bf34d6b7.jpg",
+    "static/media/wo.png": "/my-react-portfolio/static/media/wo.ddb5040a687789a289ce.png",
+    "static/media/springs.png": "/my-react-portfolio/static/media/springs.2c20a56db6b5c8dab575.png",
+    "static/media/vh.png": "/my-react-portfolio/static/media/vh.3579bd4f7459c1537cc0.png",
+    "static/media/Breathing copy.ttf": "/my-react-portfolio/static/media/Breathing copy.ef600446289c063cf06f.ttf",
+    "static/media/maa.png": "/my-react-portfolio/static/media/maa.a12e91ef7a5c979a7715.png",
+    "static/media/sd.png": "/my-react-portfolio/static/media/sd.bf40b0afab5780cff53d.png",
+    "static/media/ice.png": "/my-react-portfolio/static/media/ice.f2a898f5ee47d6985a8f.png",
+    "static/media/cw.png": "/my-react-portfolio/static/media/cw.f80132aa31153e8b1cd7.png",
+    "static/media/cat.png": "/my-react-portfolio/static/media/cat.17e6ad2a48ea27aa91b9.png",
+    "static/media/mp.png": "/my-react-portfolio/static/media/mp.22ad47d3a89463c0e09e.png",
+    "static/media/wj.png": "/my-react-portfolio/static/media/wj.efc07ac9f5b13df5ba4f.png",
+    "static/media/nt.png": "/my-react-portfolio/static/media/nt.3c12ac23c1c8f18ac5a7.png",
+    "static/media/rpg.png": "/my-react-portfolio/static/media/rpg.afed37ee0a61654bcb54.png",
+    "static/media/sophia-logo.png": "/my-react-portfolio/static/media/sophia-logo.c83694340609fb5cee96.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.c7e3ec49.css.map": "/my-react-portfolio/static/css/main.c7e3ec49.css.map",
+    "main.ef564e74.js.map": "/my-react-portfolio/static/js/main.ef564e74.js.map"
   },
   "entrypoints": [
-    "static/css/main.b88698ca.css",
-    "static/js/main.0b1633e5.js"
+    "static/css/main.c7e3ec49.css",
+    "static/js/main.ef564e74.js"
   ]
 }
