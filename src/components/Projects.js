@@ -1,9 +1,10 @@
-import vh from "../assets/images/vh.png";
-import wo from "../assets/images/wo.png";
+import vh from "../assets/images/virtual2.png";
+import wo from "../assets/images/whatson2.png";
 import rpg from "../assets/images/rpg.png";
 import wj from "../assets/images/wj.png";
 import mp from "../assets/images/mp.png";
 import nt from "../assets/images/nt.png";
+import wds from "../assets/images/wds.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 // import Container from "react-bootstrap/Container";
@@ -209,40 +210,127 @@ import Image from "react-bootstrap/Image";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={nt} />
+        <Card.Img className="card-image" variant="top" src={wo} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>What's On | Find Events Near You!</Card.Title>
+          <Card.Text>Find events near you!</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={vh} />
+        <Card.Body>
+          <Card.Title>Virtual Holiday | Travel From Home!</Card.Title>
+          <Card.Text>Travel from the comfort of your home!</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
+          <Button variant="dark">GH</Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={rpg} />
+        <Card.Body>
+          <Card.Title>FOUNDSOUND</Card.Title>
+          <Card.Text>Discover upcoming artists and gigs!</Card.Text>
+          <Button variant="dark">Coming Soon</Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={rpg} />
+        <Card.Body>
+          <Card.Title>Random Password Generator</Card.Title>
+          <Card.Text>HTML, CSS & JavaScript</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
         </Card.Body>
       </Card>
 
       <Card className="card">
         <Card.Img className="card-image" variant="top" src={nt} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>Note Taker</Card.Title>
+          <Card.Text>HTML, CSS, JavaScript, local storage</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
         </Card.Body>
       </Card>
 
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={nt} />
+        <Card.Img className="card-image" variant="top" src={mp} />
         <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
+          <Card.Title>My Portfolio</Card.Title>
+          <Card.Text>HTML, CSS</Card.Text>
+
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wj} />
+        <Card.Body>
+          <Card.Title>Weather Journal</Card.Title>
+          <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Body>
+          <Card.Title>Work Day Schedule</Card.Title>
+          <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
+          <Button variant="dark">
+            <a
+              href="https://sophia4422.github.io/my-portfolio/"
+              target="_blank"
+            >
+              View Page
+            </a>
+          </Button>
         </Card.Body>
       </Card>
     </div>

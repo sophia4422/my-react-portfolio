@@ -56,11 +56,11 @@
 
 .hero-image {
   object-fit: cover;
-  min-width: 100%;
+  width: 100%;
   position: absolute;
   top: 0;
   z-index: -1;
-  max-height: 98vh;
+  height: 98vh;
   object-position: bottom;
 }
 
@@ -84,8 +84,13 @@
 /* PROJECTS SECTION */
 
 .card {
-  width: 30%;
+  width: 20%;
   margin: 10px;
+  border: solid var(--navyBlue);
+}
+
+.card:hover {
+  border: solid var(--babyPink);
 }
 
 .projects-container {
@@ -95,7 +100,7 @@
   height: auto;
   justify-content: center;
   background-color: var(--offWhite);
-  /* padding: 40px; */
+  padding: 40px;
 }
 
 .big-projects {
@@ -349,7 +354,7 @@ header .nav-btn {
 }
 
 .form-container {
-  width: 700px;
+  width: 400px;
   background-color: var(--offWhite);
   margin: auto;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -359,6 +364,7 @@ header .nav-btn {
 .register-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: space-evenly;
   padding: 10px;
 }
@@ -375,6 +381,8 @@ header .nav-btn {
   padding: 15px;
   font-size: 16px;
   border: 0;
+  display: flex;
+  align-items: center;
 }
 
 span {
@@ -385,6 +393,8 @@ span {
 
 input {
   background: #f2f2f2;
+  align-items: center;
+  display: flex;
 }
 
 .error {
@@ -517,5 +527,10 @@ button:disabled {
 
   .polaroid {
     width: 30vh;
+  }
+
+  .form-container {
+    /* width: 400px; */
+    width: 250px;
   }
 }
