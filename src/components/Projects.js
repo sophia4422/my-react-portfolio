@@ -7,7 +7,7 @@ import nt from "../assets/images/nt.png";
 import wds from "../assets/images/wds.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-// import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
@@ -214,15 +214,14 @@ const Projects = () => {
       <Card className="card">
         <Card.Img className="card-image" variant="top" src={wo} />
         <Card.Body>
-          <Card.Title>What's On | Find Events Near You!</Card.Title>
+          <Card.Title>What's On</Card.Title>
           <Card.Text>Find events near you!</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
@@ -230,15 +229,14 @@ const Projects = () => {
       <Card className="card">
         <Card.Img className="card-image" variant="top" src={vh} />
         <Card.Body>
-          <Card.Title>Virtual Holiday | Travel From Home!</Card.Title>
+          <Card.Title>Virtual Holiday</Card.Title>
           <Card.Text>Travel from the comfort of your home!</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
           <Button variant="dark">GH</Button>
         </Card.Body>
@@ -249,7 +247,13 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>FOUNDSOUND</Card.Title>
           <Card.Text>Discover upcoming artists and gigs!</Card.Text>
-          <Button variant="dark">Coming Soon</Button>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            Coming Soon
+          </Button>
         </Card.Body>
       </Card>
 
@@ -258,13 +262,12 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>Random Password Generator</Card.Title>
           <Card.Text>HTML, CSS & JavaScript</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
@@ -274,13 +277,12 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>Note Taker</Card.Title>
           <Card.Text>HTML, CSS, JavaScript, local storage</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
@@ -291,13 +293,12 @@ const Projects = () => {
           <Card.Title>My Portfolio</Card.Title>
           <Card.Text>HTML, CSS</Card.Text>
 
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
@@ -307,13 +308,12 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>Weather Journal</Card.Title>
           <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
@@ -323,13 +323,12 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>Work Day Schedule</Card.Title>
           <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
-          <Button variant="dark">
-            <a
-              href="https://sophia4422.github.io/my-portfolio/"
-              target="_blank"
-            >
-              View Page
-            </a>
+          <Button
+            href="https://sophia4422.github.io/my-portfolio/"
+            target="_blank"
+            variant="dark"
+          >
+            View Page
           </Button>
         </Card.Body>
       </Card>
