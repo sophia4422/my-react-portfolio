@@ -12,17 +12,45 @@ const Navbar = () => {
   return (
     <header>
       <img src={logo} alt="Sophia Wave Logo" className="logo" />
-      <nav ref={navRef}>
-        <Link to="projects" spy={true} smooth={true} offset={50} duration={500}>
+      <nav ref={navRef} className="navigation">
+        <Link
+          to="projects"
+          className="nav-link"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           PROJECTS
         </Link>
-        <Link to="about" spy={true} smooth={true} offset={-80} duration={500}>
+        <Link
+          className="nav-link"
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-80}
+          duration={500}
+        >
           ABOUT
         </Link>
-        <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
+        <Link
+          className="nav-link"
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           CONTACT
         </Link>
-        <Link to="footer" spy={true} smooth={true} offset={50} duration={500}>
+        <Link
+          className="nav-link"
+          to="footer"
+          spy={true}
+          smooth={true}
+          offset={50}
+          duration={500}
+        >
           CV
         </Link>
 
