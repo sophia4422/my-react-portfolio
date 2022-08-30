@@ -4,7 +4,7 @@ My updated portfolio featuring a nav bar, hero, project cards, about me, contact
 
 # Deployed Page
 
-View here
+[View here](https://sophia4422.github.io/my-react-portfolio/)
 
 # Technologies and Packages
 
@@ -33,3 +33,8 @@ AS AN employer looking for candidates with experience building single-page appli
 I WANT to view a potential employee's deployed React portfolio of work samples
 SO THAT I can assess whether they're a good candidate for an open position
 ```
+
+# Contact
+
+-[My LinkedIn]() -[My GitHub]()
+-Email: sophiapwall@yahoo.co.uk
