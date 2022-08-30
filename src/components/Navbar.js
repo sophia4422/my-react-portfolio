@@ -22,7 +22,7 @@ const Navbar = () => {
         <Link to="contact" spy={true} smooth={true} offset={50} duration={500}>
           CONTACT
         </Link>
-        <a href="/#">CV</a>
+        <Link href="/#">CV</Link>
 
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
