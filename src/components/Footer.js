@@ -33,7 +33,17 @@ export const Footer = () => {
           >
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </a>
-          <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
+
+          <a
+            href="./assets/cv/cv.pdf"
+            download
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
+          </a>
+
           <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
         </div>
         <Link to="home" spy={true} smooth={true} offset={-80} duration={500}>
