@@ -217,11 +217,22 @@ const Projects = () => {
           <Card.Title>What's On</Card.Title>
           <Card.Text>Find events near you!</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://what-is-on.herokuapp.com/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/talexandru1987/event-finder"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -230,15 +241,25 @@ const Projects = () => {
         <Card.Img className="card-image" variant="top" src={vh} />
         <Card.Body>
           <Card.Title>Virtual Holiday</Card.Title>
-          <Card.Text>Travel from the comfort of your home!</Card.Text>
+          <Card.Text>Travel abroad from home!</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://c-sim.github.io/virtual-holiday/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
           </Button>
-          <Button variant="dark">GH</Button>
+          <Button
+            variant="dark"
+            href="https://github.com/C-Sim/virtual-holiday"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </Button>
         </Card.Body>
       </Card>
 
@@ -246,13 +267,24 @@ const Projects = () => {
         <Card.Img className="card-image" variant="top" src={rpg} />
         <Card.Body>
           <Card.Title>FOUNDSOUND</Card.Title>
-          <Card.Text>Discover upcoming artists and gigs!</Card.Text>
+          <Card.Text>Discover upcoming concerts!</Card.Text>
           <Button
             href="https://sophia4422.github.io/my-portfolio/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             Coming Soon
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -260,14 +292,25 @@ const Projects = () => {
       <Card className="card">
         <Card.Img className="card-image" variant="top" src={rpg} />
         <Card.Body>
-          <Card.Title>Random Password Generator</Card.Title>
+          <Card.Title>Password Generator</Card.Title>
           <Card.Text>HTML, CSS & JavaScript</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://sophia4422.github.io/random-password-generator/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/random-password-generator/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -276,13 +319,24 @@ const Projects = () => {
         <Card.Img className="card-image" variant="top" src={nt} />
         <Card.Body>
           <Card.Title>Note Taker</Card.Title>
-          <Card.Text>HTML, CSS, JavaScript, local storage</Card.Text>
+          <Card.Text>CSS, Node, Express</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://limitless-mountain-74074.herokuapp.com/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/note-taker/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -291,14 +345,25 @@ const Projects = () => {
         <Card.Img className="card-image" variant="top" src={mp} />
         <Card.Body>
           <Card.Title>My Portfolio</Card.Title>
-          <Card.Text>HTML, CSS</Card.Text>
+          <Card.Text>HTML & CSS</Card.Text>
 
           <Button
             href="https://sophia4422.github.io/my-portfolio/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/my-portfolio/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -307,13 +372,24 @@ const Projects = () => {
         <Card.Img className="card-image" variant="top" src={wj} />
         <Card.Body>
           <Card.Title>Weather Journal</Card.Title>
-          <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
+          <Card.Text>JS, Local Storage, Web API</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://sophia4422.github.io/weather-journal-new/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/weather-journal-new/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
@@ -321,14 +397,129 @@ const Projects = () => {
       <Card className="card">
         <Card.Img className="card-image" variant="top" src={wds} />
         <Card.Body>
-          <Card.Title>Work Day Schedule</Card.Title>
-          <Card.Text>HTML, CSS, JS, Local Storage</Card.Text>
+          <Card.Title>Work Day Scheduler</Card.Title>
+          <Card.Text>JS, Local Storage, JQuery</Card.Text>
           <Button
-            href="https://sophia4422.github.io/my-portfolio/"
+            href="https://sophia4422.github.io/day-planner/"
             target="_blank"
             variant="dark"
+            className="m-2"
           >
             View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/day-planner/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Body>
+          <Card.Title>Text Editor</Card.Title>
+          <Card.Text>Express, IndexedDB, Heroku</Card.Text>
+          <Button
+            href="https://hidden-harbor-84860.herokuapp.com/"
+            target="_blank"
+            variant="dark"
+            className="m-2"
+          >
+            View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/pwa-text-editor/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Body>
+          <Card.Title>Social Network API</Card.Title>
+          <Card.Text>MongoDB, Express, Mongoose</Card.Text>
+          <Button
+            href="https://drive.google.com/drive/folders/1ZN4jA-RT7Yo4w-UaEXK_xAInpsJHjk2d"
+            target="_blank"
+            variant="dark"
+            className="m-2"
+          >
+            View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/social-network-api/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Body>
+          <Card.Title>E-Commerce Backend</Card.Title>
+          <Card.Text>MySQL2, Express, Sequelize</Card.Text>
+          <Button
+            href="https://drive.google.com/file/d/1pNtx_eRe_5ELZL0hABYM4db7xPEd9JEB/view?usp=sharing"
+            target="_blank"
+            variant="dark"
+            className="m-2"
+          >
+            View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/e-commerce-back-end/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+          </Button>
+        </Card.Body>
+      </Card>
+
+      <Card className="card">
+        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Body>
+          <Card.Title>Profile Generator</Card.Title>
+          <Card.Text>Node, Inquirer, CSS</Card.Text>
+          <Button
+            href="https://drive.google.com/file/d/14HviYRxr6RezUx2NyEt6hIjn4-H6jv4s/view?usp=sharing"
+            target="_blank"
+            variant="dark"
+            className="m-2"
+          >
+            View Page
+          </Button>
+          <Button
+            variant="dark"
+            href="https://github.com/sophia4422/team-profile-generator/tree/dev"
+            target="_blank"
+            alt="Github"
+            title="Github"
+          >
+            {" "}
+            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </Button>
         </Card.Body>
       </Card>
