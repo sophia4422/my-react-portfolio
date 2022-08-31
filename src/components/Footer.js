@@ -9,7 +9,7 @@ import {
 
 export const Footer = () => {
   return (
-    <div className="footer-container">
+    <div className="footer-container" id="footer">
       <div>
         <h1 className="footer-title">Created by Sophia with React</h1>
         <p className="footer-para">
