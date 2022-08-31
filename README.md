@@ -28,7 +28,7 @@ This is the final webpage:
 
 # UX/UI Design
 
-The original plan of the portfolio was designed with Figma. As I was building, the design and colours altered in my progress. Whilst I have stuck to a similar layout, I like the final outcome much more.
+The original plan of the portfolio was designed with Adobe Photoshop. As I was building, the design and colours altered in my progress. Whilst I have stuck to a similar layout, I like the final outcome much more.
 
 ![alt text](./src/assets/images/readme/design.png)
 

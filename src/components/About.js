@@ -36,9 +36,9 @@ export const About = () => {
           <p className="about-para">
             I am a full-stack software engineer with knowledge of a variety of
             technologies: MERN Stack, GraphQL and MySQL, through to HTML, CSS
-            and JavaScript. I am passionate about front-end development,
-            following UX/UI best practices and graphic design. I like to combine
-            the art of design with the art of programming.
+            and JavaScript. I am passionate about front-end development, graphic
+            design and following UX/UI best practices. I like to combine the art
+            of design with the art of programming.
           </p>
           <p className="about-para">
             In my personal life, I love travelling to new places, listening to
