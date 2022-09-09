@@ -5,6 +5,10 @@ import wj from "../assets/images/wj.png";
 import mp from "../assets/images/mp.png";
 import nt from "../assets/images/nt.png";
 import wds from "../assets/images/wds.png";
+import tp from "../assets/images/tp.png";
+import ec from "../assets/images/e-com.png";
+import sn from "../assets/images/social-network.png";
+import jate from "../assets/images/jate.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import Container from "react-bootstrap/Container";
@@ -421,7 +425,7 @@ const Projects = () => {
       </Card>
 
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Img className="card-image" variant="top" src={jate} />
         <Card.Body>
           <Card.Title>Text Editor</Card.Title>
           <Card.Text>Express, IndexedDB, Heroku</Card.Text>
@@ -447,7 +451,7 @@ const Projects = () => {
       </Card>
 
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Img className="card-image" variant="top" src={sn} />
         <Card.Body>
           <Card.Title>Social Network API</Card.Title>
           <Card.Text>MongoDB, Express, Mongoose</Card.Text>
@@ -473,7 +477,7 @@ const Projects = () => {
       </Card>
 
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Img className="card-image" variant="top" src={ec} />
         <Card.Body>
           <Card.Title>E-Commerce Backend</Card.Title>
           <Card.Text>MySQL2, Express, Sequelize</Card.Text>
@@ -499,7 +503,7 @@ const Projects = () => {
       </Card>
 
       <Card className="card">
-        <Card.Img className="card-image" variant="top" src={wds} />
+        <Card.Img className="card-image" variant="top" src={tp} />
         <Card.Body>
           <Card.Title>Profile Generator</Card.Title>
           <Card.Text>Node, Inquirer, CSS</Card.Text>

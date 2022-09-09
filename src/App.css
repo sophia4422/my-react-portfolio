@@ -29,8 +29,7 @@ header {
   /* height: 15vh; */
   padding: 0 2rem;
   color: var(--offWhite);
-  /* position: absolute;
-  top: 0px; */
+  /* position: fixed; */
 }
 
 .navigation {
