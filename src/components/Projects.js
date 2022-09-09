@@ -456,7 +456,7 @@ const Projects = () => {
           <Card.Title>Social Network API</Card.Title>
           <Card.Text>MongoDB, Express, Mongoose</Card.Text>
           <Button
-            href="https://drive.google.com/drive/folders/1ZN4jA-RT7Yo4w-UaEXK_xAInpsJHjk2d"
+            href="https://drive.google.com/file/d/1xeMgsa-gPm23HR22UXrYQnsH6WxJMN_u/view?usp=sharing"
             target="_blank"
             variant="dark"
             className="m-2"
