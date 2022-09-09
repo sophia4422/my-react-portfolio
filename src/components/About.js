@@ -40,11 +40,6 @@ export const About = () => {
             design and following UX/UI best practices. I like to combine the art
             of design with the art of programming.
           </p>
-          <p className="about-para">
-            In my personal life, I love travelling to new places, listening to
-            R&B, cuddling my pet cat, Cookie, painting and cooking (I make the
-            best lasagne)!
-          </p>
           <Link
             to="contact"
             spy={true}

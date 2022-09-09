@@ -6,6 +6,7 @@ import {
   faFile,
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
+import CV from "../assets/cv/cv.pdf";
 
 export const Footer = () => {
   return (
@@ -34,17 +35,18 @@ export const Footer = () => {
             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
           </a>
 
-          <a
-            href="./assets/cv/cv.pdf"
-            download
-            target="_blank"
-            alt="Github"
-            title="Github"
-          >
+          <a href={CV} download target="_blank" alt="Github" title="Github">
             <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
           </a>
 
-          <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          <a
+            href="mailto:sophiapwall@yahoo.co.uk?subject=Hi Sophia"
+            target="_blank"
+            alt="Email"
+            title="Email"
+          >
+            <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
+          </a>
         </div>
         <Link to="home" spy={true} smooth={true} offset={-80} duration={500}>
           <FontAwesomeIcon
