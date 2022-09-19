@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.91de367a.css",
-    "main.js": "/my-react-portfolio/static/js/main.b1ce922e.js",
+    "main.js": "/my-react-portfolio/static/js/main.034a60d0.js",
     "static/media/polaroids.png": "/my-react-portfolio/static/media/polaroids.3f610712178702aeb682.png",
     "static/media/fl.jpg": "/my-react-portfolio/static/media/fl.3e3a9bc2cc75bf34d6b7.jpg",
     "static/media/springs.png": "/my-react-portfolio/static/media/springs.2c20a56db6b5c8dab575.png",
@@ -13,11 +13,11 @@
     "static/media/virtual2.png": "/my-react-portfolio/static/media/virtual2.33c2d833a6e24c78957d.png",
     "static/media/cw.png": "/my-react-portfolio/static/media/cw.f80132aa31153e8b1cd7.png",
     "static/media/cat.png": "/my-react-portfolio/static/media/cat.17e6ad2a48ea27aa91b9.png",
-    "static/media/cv.pdf": "/my-react-portfolio/static/media/cv.f6cd45605db6f2090b41.pdf",
     "static/media/social-network.png": "/my-react-portfolio/static/media/social-network.b724cb69448611c311e9.png",
     "static/media/mp.png": "/my-react-portfolio/static/media/mp.22ad47d3a89463c0e09e.png",
     "static/media/e-com.png": "/my-react-portfolio/static/media/e-com.5b9164bf5a6853ff5fa4.png",
     "static/media/tp.png": "/my-react-portfolio/static/media/tp.f5bc5b23daf6a501cbed.png",
+    "static/media/cv.pdf": "/my-react-portfolio/static/media/cv.fe934d6c43b946f3813c.pdf",
     "static/media/jate.png": "/my-react-portfolio/static/media/jate.aec57b637820e72a8163.png",
     "static/media/wj.png": "/my-react-portfolio/static/media/wj.efc07ac9f5b13df5ba4f.png",
     "static/media/wds.png": "/my-react-portfolio/static/media/wds.52e086a011c16c73a6ca.png",
@@ -26,10 +26,10 @@
     "static/media/sophia-logo.png": "/my-react-portfolio/static/media/sophia-logo.c83694340609fb5cee96.png",
     "index.html": "/my-react-portfolio/index.html",
     "main.91de367a.css.map": "/my-react-portfolio/static/css/main.91de367a.css.map",
-    "main.b1ce922e.js.map": "/my-react-portfolio/static/js/main.b1ce922e.js.map"
+    "main.034a60d0.js.map": "/my-react-portfolio/static/js/main.034a60d0.js.map"
   },
   "entrypoints": [
     "static/css/main.91de367a.css",
-    "static/js/main.b1ce922e.js"
+    "static/js/main.034a60d0.js"
   ]
 }
